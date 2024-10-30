@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('react', 'react-dom', 'wc-currency', 'wc-settings', 'wp-components', 'wp-element', 'wp-i18n'), 'version' => '510d4b7f4a753d7251fa8d78b9541d03');

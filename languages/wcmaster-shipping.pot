@@ -1,0 +1,262 @@
+# Copyright (C) 2022 wsjr_catarri
+# This file is distributed under the GPL-3.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooСommerce Master Shipping 1.0.0\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-04-11T11:43:05+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: wcmaster-shipping\n"
+
+#. Plugin Name of the plugin
+msgid "WooСommerce Master Shipping"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create complex Shipping Method for WooCommerce with conditions & actions"
+msgstr ""
+
+#. Author of the plugin
+msgid "wsjr_catarri"
+msgstr ""
+
+#: includes/class-wcmaster-ajax.php:112
+#: includes/class-wcmaster-ajax.php:156
+#: includes/class-wcmaster-ajax.php:187
+msgid "Not allowed"
+msgstr ""
+
+#: includes/class-wcmaster-ajax.php:122
+msgid "Shipping Id not found"
+msgstr ""
+
+#: includes/class-wcmaster-ajax.php:140
+msgid "Saved!"
+msgstr ""
+
+#: includes/class-wcmaster-shipping-method.php:33
+#: includes/class-wcmaster-shipping-method.php:168
+msgid "Master Shipping"
+msgstr ""
+
+#: includes/class-wcmaster-shipping-method.php:34
+msgid "Build complex deliveries, charge varying rates based on user defined conditions"
+msgstr ""
+
+#: includes/class-wcmaster-shipping-method.php:166
+msgid "Title"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Ship to address"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Shipping Method Title"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Taxable"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Hide this method"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Use volumetric weight"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "L*W*H / Divider"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Divider"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Enable Ship to address"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "If shipping method used as local pickup"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Ship to address title"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Ship to address cost"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Enable Multiple Departments"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Set conditions"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Conditions"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Add new item"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+#: assets/js/dist/app.bundle.js:162
+msgid "Add"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Drag to move"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Clone"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Delete"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Set extra costs"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Test calculation"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Test"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Save"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:140
+msgid "Calculation"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:151
+msgid "Choose Products in cart"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:151
+#: assets/js/dist/app.bundle.js:173
+msgid "Type to search…"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:151
+msgid "Image"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:151
+msgid "Name"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:151
+msgid "Price"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:151
+msgid "Quantity"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:151
+msgid "Press to calculate"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:151
+msgid "Calculate"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:151
+msgid "* Calculation without conditions"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:151
+msgid "Total: "
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "Add condition"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "Select action"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "Shipping Method"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "Match any statement"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "Any"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "Match all statements"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "All"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "Add statement"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "Clone condition"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "Delete condition"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "Select criteria"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "Cart"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "User"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "Product"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "Select comparator"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "Clone statement"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:162
+msgid "Delete statement"
+msgstr ""
+
+#: assets/js/dist/app.bundle.js:173
+msgid "Value"
+msgstr ""

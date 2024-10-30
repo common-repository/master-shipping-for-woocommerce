@@ -1,0 +1,166 @@
+
+.wcmaster-method-block {
+	border: 1.5px solid #EAEBF3;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 8px;
+	padding: 14px;
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.wcmaster-method-block > span {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 10px;
+}
+.woocommerce-checkout-review-order .wcmaster-method-block ul {
+	margin: 0;
+}
+.wcmaster-method-block svg {
+	-webkit-transition: transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out;	
+}
+.wcmaster-method-block svg.active {
+	transform: rotate(-180deg);
+}
+.wcmaster-method-block ul {
+	position: relative;
+	height: 0;
+	-webkit-transition: transform 0.3s ease-in-out;
+	transition: transform 0.3s ease-in-out;
+	-webkit-box-shadow: 0px 10px 40px rgba(137, 153, 170, 0.15);
+	box-shadow: 0px 10px 40px rgba(137, 153, 170, 0.15);
+	border-radius: 8px;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 15;
+	margin: 0;
+}
+.wcmaster-method-block ul li {
+	padding: 8px 10px;
+	display: block
+}
+.wcmaster-method-block ul li:hover {
+	background: #DDEBFF;
+	border-radius: 6px;    
+}
+.wcmaster-method-block ul.active {
+	height: auto;
+	-webkit-transform: translateY(5px);
+	transform: translateY(5px);
+	visibility: visible;
+	opacity: 1;
+}
+
+form.checkout .wcmaster-method-block.disabled .wcmaster-selected-item, form.checkout .wcmaster-form-group.disabled, .woocommerce-cart .wcmaster-method-block.disabled .wcmaster-selected-item, .woocommerce-cart .wcmaster-form-group.disabled {
+	opacity: 0.5;
+}
+/* Checkbox   */
+form.checkout .wcmaster-form-group label, .woocommerce-cart .wcmaster-form-group label {
+	position: relative;
+	display: flex;
+	align-items: center;
+	transition: color 250ms cubic-bezier(.4,.0,.23,1);
+	margin: 0;
+}
+.wcmaster-form-group label .wcmaster-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	border: 2px solid #333;
+	border-radius: 2px;
+	cursor: pointer;  
+	transition: all 250ms cubic-bezier(.4,.0,.23,1);
+}
+
+.wcmaster-form-group .wcmaster-courier-checkbox {
+	display: none !important;
+}
+.wcmaster-form-group .wcmaster-courier-checkbox:checked + label .wcmaster-icon {
+border: 10px solid #247AA8;
+animation: shrink-bounce 200ms cubic-bezier(.4,.0,.23,1);
+}
+.wcmaster-form-group .wcmaster-courier-checkbox:checked + label .wcmaster-icon::before {
+content: "";
+position: absolute;
+top: 11px;
+left: 5px;
+border-right: 2px solid transparent;
+border-bottom: 2px solid transparent;
+transform: rotate(45deg);
+transform-origin: 0% 100%;
+animation: checkbox-check 125ms 250ms cubic-bezier(.4,.0,.23,1) forwards;
+}
+.wcmaster-form-group .woocommerce-Price-amount {
+	margin-left: 5px;
+}
+/* Loading */
+.loading {
+	position: relative;
+	opacity: 0.5;
+}
+
+.loading::after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border: 4px solid rgba(255, 255, 255, 0.15);
+	border-top-color: #333;
+	animation: spin 0.4s infinite linear;
+	-webkit-backface-visibility: hidden;
+	border-radius: 50%;
+	right: 10px;
+	top: 20%;
+	
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes shrink-bounce {
+	0%{
+		transform: scale(1);
+	}
+	33%{    
+		transform: scale(.85);
+	}
+	100%{
+		transform: scale(1);    
+	}
+}
+@keyframes checkbox-check {
+	0% {
+	width: 0;
+	height: 0;
+	border-color: #fff;
+	transform: translate3d(0,0,0) rotate(45deg);
+    }
+	33% {
+	width: 4px;
+	height: 0;
+	transform: translate3d(0,0,0) rotate(45deg);
+	}
+	100% {    
+	width: 4px;
+	height: 9px;    
+	border-color: #fff;
+	transform: translate3d(0,-9px,0) rotate(45deg);
+	}
+}
+        
